@@ -13,4 +13,4 @@ o.delivery
 FROM
 orders o
 LEFT JOIN item i ON o.item_id=i.item_id
-LEFT JOIN addreaa a ON o.add_id=a.add_id
+LEFT JOIN address a ON o.add_id=a.add_id
